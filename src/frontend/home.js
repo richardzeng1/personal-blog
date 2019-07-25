@@ -41,9 +41,11 @@ const styles = theme => ({
     },
     coverImageParent:{
         position:'relative',
+        height:"300px",
+        overflow:"hidden"
     },
     coverImageText:{
-        color: "#FFFFFF"
+        color: "#FFFFFF",
     }
 })
 
@@ -56,9 +58,9 @@ class Home extends React.Component{
                 <Navbar/>
                     <div className={classes.coverImageParent}>
                         <LazyLoadImage
-                        src={image}
+                        src="https://source.unsplash.com/user/erondu"
                         width={"100%"}
-                        height={"100%"}
+
                         className={classes.coverImage}/>
 
                         <Grid container>
@@ -74,7 +76,10 @@ class Home extends React.Component{
                           </Grid>
                         </Grid>
                     </div>
-                <h1>hello</h1>
+
+                    <div>
+                        <h1>testing</h1>
+                    </div>
             </Container>
             </div>
         );
