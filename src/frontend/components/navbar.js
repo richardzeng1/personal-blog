@@ -38,7 +38,6 @@ class Navbar extends React.Component{
         return (
             <div>
             <CssBaseline />
-            <Container maxWidth="lg">
                 <Toolbar className={classes.toolbar}>
                     <Typography
                     component="h2"
@@ -76,7 +75,6 @@ class Navbar extends React.Component{
                     className={classes.toolbarLink}>
                     Hello</Link>
                 </Toolbar>
-                </Container>
             </div>
         )
     }
