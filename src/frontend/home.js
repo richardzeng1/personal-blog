@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 
 import image from "../public/background.png"
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const styles = theme => ({
     coverImage:{
@@ -60,7 +61,7 @@ class Home extends React.Component{
                         <LazyLoadImage
                         src="https://source.unsplash.com/user/erondu"
                         width={"100%"}
-
+                        effect="blur"
                         className={classes.coverImage}/>
 
                         <Grid container>
