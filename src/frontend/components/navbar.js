@@ -46,7 +46,7 @@ class Navbar extends React.Component{
                     align="center"
                     noWrap
                     className={classes.toolbarTitle}>
-                        test
+                        Noob Programs Stuff
                     </Typography>
                 </Toolbar>
 
@@ -57,7 +57,8 @@ class Navbar extends React.Component{
                     variant="h6"
                     href="#"
                     className={classes.toolbarLink}>
-                    Hello</Link>
+                        Home
+                    </Link>
 
                     <Link
                     color="inherit"
@@ -65,7 +66,8 @@ class Navbar extends React.Component{
                     variant="h6"
                     href="#"
                     className={classes.toolbarLink}>
-                    Hello</Link>
+                        About
+                    </Link>
 
                     <Link
                     color="inherit"
@@ -73,7 +75,17 @@ class Navbar extends React.Component{
                     variant="h6"
                     href="#"
                     className={classes.toolbarLink}>
-                    Hello</Link>
+                        Blogs
+                    </Link>
+
+                    <Link
+                    color="inherit"
+                    noWrap
+                    variant="h6"
+                    href="#"
+                    className={classes.toolbarLink}>
+                        Sponsor Me
+                    </Link>
                 </Toolbar>
             </div>
         )

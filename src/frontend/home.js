@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 import Container from '@material-ui/core/Container';
 import Paper from '@material-ui/core/Paper';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -8,6 +9,7 @@ import Image from 'material-ui-image'
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Divider from '@material-ui/core/Divider';
+import Markdown from "react-markdown";
 
 import image from "../public/background.png"
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -86,14 +88,19 @@ class Home extends React.Component{
                         <Grid container className={classes.textArea}>
                             <Grid item sm={2}></Grid>
                             <Grid item sm={8}>
-                                <Typography variant="h5" gutterBottom>
-                                    Who Am I
+                                <Typography variant="h3" gutterBottom>
+                                    Just an Average Dude
                                 </Typography>
+
+                                <Markdown source={"Hello *World*!"}></Markdown>
+
                             </Grid>
                             <Grid item sm={2}></Grid>
                         </Grid>
                     </div>
             </Container>
+
+            <Footer/>
             </div>
         );
     }
