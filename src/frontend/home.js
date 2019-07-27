@@ -7,6 +7,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Image from 'material-ui-image'
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import Divider from '@material-ui/core/Divider';
 
 import image from "../public/background.png"
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -47,6 +48,9 @@ const styles = theme => ({
     },
     coverImageText:{
         color: "#FFFFFF",
+    },
+    textArea:{
+        marginTop:25
     }
 })
 
@@ -79,7 +83,15 @@ class Home extends React.Component{
                     </div>
 
                     <div>
-                        <h1>testing</h1>
+                        <Grid container className={classes.textArea}>
+                            <Grid item sm={2}></Grid>
+                            <Grid item sm={8}>
+                                <Typography variant="h5" gutterBottom>
+                                    Who Am I
+                                </Typography>
+                            </Grid>
+                            <Grid item sm={2}></Grid>
+                        </Grid>
                     </div>
             </Container>
             </div>
