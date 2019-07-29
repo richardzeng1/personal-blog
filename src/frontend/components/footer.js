@@ -29,7 +29,7 @@ class Footer extends React.Component{
                             Sponsor me
                         </Typography>
 
-                        <Button color="primary">
+                        <Button color="primary" href="sponsor">
                             <Typography variant="h8">
                                 Help sponsor me so I don't need to do consulting
                             </Typography>
