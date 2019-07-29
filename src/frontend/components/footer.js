@@ -13,7 +13,7 @@ const styles = theme => ({
     styling:{
         backgroundColor: "#F6F6F6",
         paddingTop:"25px",
-        paddingBottom:"25px"
+        paddingBottom:"25px",
     }
 })
 
@@ -25,13 +25,13 @@ class Footer extends React.Component{
                 <Grid container>
                     <Grid item sm={2}></Grid>
                     <Grid item sm={8}>
-                        <Typography variant="h5" gutterBottom>
+                        <Typography variant="h6" gutterBottom>
                             Sponsor me
                         </Typography>
 
                         <Button color="primary">
                             <Typography variant="h8">
-                                Buy Me a Cup of Coffee
+                                Help sponsor me so I don't need to do consulting
                             </Typography>
                         </Button>
                     </Grid>

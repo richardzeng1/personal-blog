@@ -1,5 +1,5 @@
 const homePost = `
-Have you ever hear
+Have you ever heard
 
 "Its good to learn from your mistakes but its better to learn from the mistakes of others"
 

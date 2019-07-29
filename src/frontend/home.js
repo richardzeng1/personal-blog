@@ -131,8 +131,12 @@ class Home extends React.Component{
                                     </Typography>
 
                                     <Typography variant="subtitle1">
-                                        Let's talk about working in the booming tech space in Toronto
+                                        What its like to work at a unicorn start up
                                     </Typography>
+
+                                    <Button color="primary">
+                                        This button doesn't do anything
+                                    </Button>
                                 </Paper>
                             </Grid>
                         </Grid>
