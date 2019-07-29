@@ -12,7 +12,6 @@ import Divider from '@material-ui/core/Divider';
 import Markdown from "react-markdown";
 import Button from '@material-ui/core/Button';
 
-import image from "../public/background.png"
 import post from "../public/markdowns/home";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
