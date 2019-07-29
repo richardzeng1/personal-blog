@@ -16,6 +16,9 @@ import image from "../public/background.png"
 import post from "../public/markdowns/home";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
+// Things to write about
+// Going to school at UofT
+
 const styles = theme => ({
     coverImage:{
         height:50,
