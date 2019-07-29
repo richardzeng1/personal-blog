@@ -82,7 +82,7 @@ class Navbar extends React.Component{
                     color="inherit"
                     noWrap
                     variant="h6"
-                    href="#"
+                    href="sponsor"
                     className={classes.toolbarLink}>
                         Sponsor Me
                     </Link>
