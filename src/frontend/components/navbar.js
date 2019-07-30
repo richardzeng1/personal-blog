@@ -73,7 +73,7 @@ class Navbar extends React.Component{
                     color="inherit"
                     noWrap
                     variant="h6"
-                    href="#"
+                    href="blogs"
                     className={classes.toolbarLink}>
                         Blogs
                     </Link>

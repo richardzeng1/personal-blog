@@ -28,7 +28,29 @@ Needless to say, we lost everyone's attention and a few people left. The saving 
 discussion. It's good to know people paid attention, even if they stopped during the demo.
 
 
-## Take always 
+## Take Aways
+Its too easy to blame the bad presentation on a bad demo and tunnel vision. Yes I should have started talking or taking questions
+and should have had a contingency plan if the demo goes wrong. There are a lot more subtle things which caused use to fail.
+
+
+1. We didn't have all the pipeline developed. We had the most basic implementation of the system and it could have been used in
+PROD but if something does wrong, we needed to run CLI commands. This lead us to develop a pipeline to runs the repairs and
+would have resolved our demo on the spot.
+
+2. We never tried speaking in the room with a microphone before hand. I was holding it at my stomach and I'm sure they heard my
+stomach growl more than me. Since then, I hold the microphone right next to my chin, close enough to pick up what I'm saying but
+far enough to stop the sound of my breathing.
+
+3. One small physical presentation skill I lacked was making eye contact with the audience. I fixated on one person and stared at them
+the entire presentation. Following my presentation, my manager gave me some tips and one of them was to slowly scan the corners of the room.
+This gives audience members the impression that you are giving them equal eye contact which helps keep them engaged.
+
+
+## Failed?
+You never really fail in tech, you just figured out another way not to do something. It was a really good learning experience and
+it was at a company where people are not afraid to try and you are not judged if you fail. Its the fear of failure which criple some people
+and prevent them from ever speaking in front of a large crowd. I can personally tell you, it sucks in the moment (and the following moments)
+but its the fastest way to grow as a presenter and you can only get better. With that said, I hope you're presentation goes horribly!
 `
 
 export default p

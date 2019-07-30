@@ -116,7 +116,7 @@ class Home extends React.Component{
                                     Let's talk about working in the booming tech space in Toronto
                                 </Typography>
 
-                                <Button color="primary">
+                                <Button color="primary" href="blogs">
                                     Read More ...
                                 </Button>
                             </Paper>

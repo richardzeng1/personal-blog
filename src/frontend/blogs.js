@@ -6,6 +6,7 @@ import Footer from './components/footer';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Markdown from "react-markdown";
+import Grid from '@material-ui/core/Grid';
 
 import post from '../public/markdowns/failed_presentation';
 
@@ -53,9 +54,16 @@ class Blogs extends React.Component{
                         </Typography>
 
                         <div className={classes.text}>
-                            <Typography variant="body1" paragraph>
-                                <Markdown source={post}></Markdown>
-                            </Typography>
+                            <Grid container>
+                                <Grid item sm={2}></Grid>
+                                <Grid item sm={8}>
+                                    <Typography variant="body1" paragraph>
+                                        <Markdown source={post}></Markdown>
+                                    </Typography>
+                                </Grid>
+                                <Grid item sm={2}></Grid>
+
+                            </Grid>
                         </div>
                     </div>
                 </Container>
