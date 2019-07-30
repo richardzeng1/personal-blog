@@ -5,6 +5,9 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
+import Markdown from "react-markdown";
+
+import post from '../public/markdowns/failed_presentation';
 
 const styles = theme => ({
     content:{
@@ -50,8 +53,8 @@ class Blogs extends React.Component{
                         </Typography>
 
                         <div className={classes.text}>
-                            <Typography varian="subtitle1" color="textSecondary">
-                                July 2019
+                            <Typography variant="body1" paragraph>
+                                <Markdown source={post}></Markdown>
                             </Typography>
                         </div>
                     </div>
