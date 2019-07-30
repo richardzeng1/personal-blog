@@ -113,7 +113,7 @@ class Home extends React.Component{
                                 </Typography>
 
                                 <Typography variant="subtitle1">
-                                    Let's talk about working in the booming tech space in Toronto
+                                    Let's talk about my failed presentation
                                 </Typography>
 
                                 <Button color="primary" href="blogs">
