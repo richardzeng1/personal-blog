@@ -80,7 +80,7 @@ class Home extends React.Component{
                 <Navbar/>
                 <div className={classes.coverImageParent}>
                     <LazyLoadImage
-                    src="https://source.unsplash.com/user/erondu"
+                    src="https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
                     width={"100%"}
                     effect="blur"
                     className={classes.coverImage}/>
