@@ -80,7 +80,7 @@ class Home extends React.Component{
                 <Navbar/>
                 <div className={classes.coverImageParent}>
                     <LazyLoadImage
-                    src="https://source.unsplash.com/user/erondu"
+                    src="https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
                     width={"100%"}
                     effect="blur"
                     className={classes.coverImage}/>
@@ -113,10 +113,10 @@ class Home extends React.Component{
                                 </Typography>
 
                                 <Typography variant="subtitle1">
-                                    Let's talk about working in the booming tech space in Toronto
+                                    Let's talk about my failed presentation
                                 </Typography>
 
-                                <Button color="primary">
+                                <Button color="primary" href="blogs">
                                     Read More ...
                                 </Button>
                             </Paper>
